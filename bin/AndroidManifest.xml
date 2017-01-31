@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.td"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.td.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.td.TransactionOverviewActivity"
+            android:label="@string/title_activity_transaction_overview" >
+        </activity>
+        <activity
+            android:name="com.example.td.CompanyDetailsActivity"
+            android:label="@string/title_activity_company_details" >
+        </activity>
+        <activity
+            android:name="com.example.td.CompanyCompareActivity"
+            android:label="@string/title_activity_company_compare" >
+        </activity>
+        <activity
+            android:name="com.example.td.HelpActivity"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name="com.example.td.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="com.example.td.CategorySelectionActivity"
+            android:label="@string/title_activity_category_selection" >
+        </activity>
+        <activity
+            android:name="com.example.td.CompaniesActivity"
+            android:label="@string/title_activity_companies" >
+        </activity>
+    </application>
+
+</manifest>
